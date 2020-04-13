@@ -1,19 +1,22 @@
 # vue-cool-ui
 
 ## Project setup
+
 ```
-npm install
+npm install vue-cool-ui
 ```
 
-### Compiles and hot-reloads for development
+## Project use
+
 ```
-npm run serve
+import VueCoolUi from 'vue-cool-ui'
+import 'vue-cool-ui/lib/vue-cool-ui.css
 ```
 
-### Compiles and minifies for production
 ```
-npm run build
+Vue.use(VueCoolUi)
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
